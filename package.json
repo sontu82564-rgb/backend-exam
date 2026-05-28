@@ -1,0 +1,23 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "1 node_mudels\r 2 package.json\r 3 package-lock.json\r 4 seerver\r 5 src \r 5.1 config\r 5.2 middelware\r 5.3 models\r 5.4 routes\r 5.5controllers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.3",
+    "nodemon": "^3.1.14"
+  }
+}
